@@ -2,7 +2,6 @@
   functions="functions"
 
 [[redirects]]
-  force = true
   from = "/"
   to = "/test.html"
   status = 200
