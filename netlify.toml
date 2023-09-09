@@ -1,8 +1,8 @@
 [build]
   functions="functions"
 
-#[[redirects]]
-# force = true
-#  from = "/api/*"
-#  to = "/.netlify/functions/api/:splat"
-#  st#atus = 200
+[[redirects]]
+ force = true
+ from = "/api/*"
+ to = "/.netlify/functions/api/:splat"
+ status = 200
