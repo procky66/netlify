@@ -3,6 +3,6 @@
 
 [[redirects]]
   #force = true
-  from = "/jsp/*"
+  from = "/*"
   to = "/.netlify/functions/api/:splat"
   #status = 200
