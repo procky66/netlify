@@ -2,7 +2,12 @@
   functions="functions"
 
 [[redirects]]
-  #force = true
-  from = "/*"
+  force = true
+  from = "/"
+  to = "/test.html"
+  status = 200
+[[redirects]]
+  force = true
+  from = "/api/*"
   to = "/.netlify/functions/api/:splat"
-  #status = 200
+  status = 200
